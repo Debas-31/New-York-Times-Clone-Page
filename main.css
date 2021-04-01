@@ -252,9 +252,15 @@ h3 {
   width: 100%;
 }
 
+.inflation-info img {
+  margin-left: 100px;
+  width: 85%;
+}
+
 .inflation-container {
-  width: 80%;
-  margin-left: 150px;
+  width: 88%;
+  margin-left: 118px;
+  text-align: left;
 }
 
 .l-font {
@@ -327,14 +333,15 @@ h3 {
   font-weight: 400;
   line-height: 20px;
   color: rgb(51, 51, 51);
-  margin: 5px 20px 0 5px;
+  margin: 5px 5px 0 5px;
+  width: fit-content;
 }
 
 .more-space-h3 {
   color: #333;
   font-weight: bold;
   max-width: 65%;
-  margin-left: 1%;
+  margin-left: 0.5%;
   text-align: left;
   padding-top: 15px;
   margin-bottom: 15px;
@@ -369,6 +376,7 @@ h3 {
   font-style: normal;
   color: #666;
   margin-left: 140px;
+  text-align: left;
 }
 
 .inflation-img-box1 {
@@ -376,10 +384,14 @@ h3 {
   justify-content: space-between;
 }
 
+.inflation-title {
+  margin-left: 135px;
+}
+
 .inflation-info1 {
   display: flex;
   justify-content: space-between;
-  margin-top: 10px;
+  margin-top: -470px;
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -396,6 +408,7 @@ h3 {
 .inflation-info1 p {
   font-size: 0.9rem;
   margin-left: 15px;
+  line-height: 1.2rem;
 }
 
 .inflation-img-box2 {
@@ -407,7 +420,9 @@ h3 {
 .inflation-info2 {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  margin-top: 170px;
+
+  /* margin-bottom: 20px; */
   font-family:
     -apple-system,
     BlinkMacSystemFont,
@@ -422,8 +437,9 @@ h3 {
 }
 
 .inflation-info2 p {
-  font-size: 13px;
+  font-size: 0.9rem;
   margin-left: 15px;
+  line-height: 1.2rem;
 }
 
 .story-info {
@@ -508,7 +524,6 @@ h3 {
   flex-direction: column;
   max-width: 30%;
   float: right;
-  height: 20px;
   margin-right: 5%;
   margin-top: -31%;
 }
@@ -523,13 +538,19 @@ h3 {
 }
 
 .most-popular-text {
-  font-size: 0.9rem;
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 23px;
   flex: 1;
   border-top: 1px solid #888;
   text-align: left;
-  line-height: 20px;
   padding-top: 5px;
   padding-bottom: 10px;
+  font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+}
+
+.most-popular-text a {
+  color: rgb(18, 18, 18);
 }
 
 .more-space-txt {
@@ -627,7 +648,7 @@ footer {
   border-top: 1px solid rgb(207, 204, 204);
   width: 100%;
   line-height: 20px;
-  padding: 5px;
+  padding: 15px;
   margin-top: 80px;
 }
 
@@ -664,7 +685,7 @@ footer {
 .final-links {
   display: flex;
   justify-content: space-between;
-  margin-top: 30px;
+  margin-top: 2px;
 }
 
 .final-links a {
@@ -705,9 +726,47 @@ footer {
   padding: 0;
 }
 
+.footer-sticky {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: right;
+  margin: 10px -180px;
+}
+
+.footer-sticky a {
+  font-size: 1.4rem;
+  margin-left: 10px;
+  font-weight: 500;
+
+  /* margin-left: 10px; */
+}
+
+.footer-sticky span {
+  font-size: 1.2rem;
+}
+
 .strong {
   font-size: 1.2rem;
   font-weight: 900;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border-top: 0.5px solid rgb(133, 132, 132);
+  background-color: white;
+  color: black;
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 1rem;
+  margin-top: 12px;
 }
 
 .btn-nav {
