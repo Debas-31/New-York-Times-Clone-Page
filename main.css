@@ -380,8 +380,17 @@ h3 {
   display: flex;
   justify-content: space-between;
   margin-top: 10px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
 .inflation-info1 p {
@@ -399,8 +408,17 @@ h3 {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
-    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
 }
 
 .inflation-info2 p {
@@ -582,7 +600,7 @@ h3 {
   margin-bottom: -55px;
 }
 
-/* footer section*/
+/* footer section */
 footer {
   flex: 0 0 200px;
   padding: 40px 0;
